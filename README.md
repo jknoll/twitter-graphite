@@ -1,12 +1,12 @@
 graphite-twitter
 ==
 
-Sends a follower count to graphite.
-
-    len(api.GetMentions())
-    len(api.GetRetweetsOfMe())
-    len(api.GetFavorites())
-    len(api.GetFriends())
+Sends twitter stat counts to graphite.
+* followers
+* friends
+* mentions
+* retweets
+* favorites
 
 Other API endpoints for future reference and inclusion:
 
