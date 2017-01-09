@@ -5,7 +5,8 @@ Sends a follower count to graphite.
 
     len(api.GetMentions())
     len(api.GetRetweetsOfMe())
-
+    len(api.GetFavorites())
+    len(api.GetFriends())
 
 Other API endpoints for future reference and inclusion:
 

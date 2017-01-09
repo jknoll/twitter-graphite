@@ -19,11 +19,9 @@ stats['favorites'] = len(api.GetFavorites())
 
 def send_message(stat_name, value):
     message = config['graphite_api_key'] + "." + stat_name + " %s\n" % value
-    print message
     conn = socket.create_connection(("carbon.hostedgraphite.com", 2003))
     conn.send(message)
     conn.close()
 
 for key in stats:
-    print(key + ": " + str(stats[key]))
     send_message("personal.twitter." + key, stats[key])
