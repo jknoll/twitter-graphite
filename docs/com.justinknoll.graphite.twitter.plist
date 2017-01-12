@@ -10,5 +10,9 @@
     </array>
     <key>StartInterval</key>
     <integer>600</integer>
+    <key>StandardErrorPath</key>
+    <string>/tmp/inbox_feed_twitter.err</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/inbox_feed_twitter.out</string>
 </dict>
 </plist>
